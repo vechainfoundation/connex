@@ -104,3 +104,4 @@ typings/
 
 dist/
 esm/
+yarn.lock
