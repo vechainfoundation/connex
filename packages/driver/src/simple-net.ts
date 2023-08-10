@@ -7,7 +7,7 @@ import { Agent as HttpsAgent } from 'https'
 
 /** class simply implements Net interface */
 export class SimpleNet implements Net {
-    private readonly axios: AxiosInstance
+    protected readonly axios: AxiosInstance
 
     constructor(
         readonly baseURL: string,
